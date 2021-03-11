@@ -1,0 +1,40 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.rulers": [
+        80
+    ],
+    "doxdocgen.file.versionTag": "",
+    "doxdocgen.generic.authorEmail": "bzk@caxa.com",
+    "doxdocgen.generic.authorName": "bzk",
+    "doxdocgen.file.copyrightTag": [
+        "@copyright Copyright (c) {year} CAXA. All rights reserved."
+    ],
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "workbench.colorTheme": "dark-plus-syntax",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.automationShell.osx": "",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#1E1E1E",
+        "terminal.foreground": "#ebece6",
+        "terminalCursor.background": "#ebece6",
+        "terminalCursor.foreground": "#ebece6",
+        "terminal.ansiBlack": "#585858",
+        "terminal.ansiBlue": "#49baff",
+        "terminal.ansiBrightBlack": "#585858",
+        "terminal.ansiBrightBlue": "#49baff",
+        "terminal.ansiBrightCyan": "#61c058",
+        "terminal.ansiBrightGreen": "#89b967",
+        "terminal.ansiBrightMagenta": "#fc4cb4",
+        "terminal.ansiBrightRed": "#fc4346",
+        "terminal.ansiBrightWhite": "#ededec",
+        "terminal.ansiBrightYellow": "#d8e27e",
+        "terminal.ansiCyan": "#61c058",
+        "terminal.ansiGreen": "#89b967",
+        "terminal.ansiMagenta": "#fc4cb4",
+        "terminal.ansiRed": "#fc4346",
+        "terminal.ansiWhite": "#ededec",
+        "terminal.ansiYellow": "#d8e27e"
+    }
+}
