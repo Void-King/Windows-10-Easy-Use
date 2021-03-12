@@ -1,0 +1,1 @@
+C:\Users\Admin-BZK\AppData\Local\Microsoft\WindowsApps\wt.exe --title CaxaPm G:\dev.caxa.com\bin\caxapmd.exe; new-tab --title Auth G:\dev.caxa.com\bin\auth.exe ; focus-tab -t 0
