@@ -1,0 +1,42 @@
+https://gitee.com/void-king/tools-template-store
+
+https://blog.csdn.net/MAIMIHO/article/details/106518383
+https://blog.csdn.net/pi31415926535x/article/details/108331325?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control
+https://blog.csdn.net/yihuajack/article/details/111405007
+
+set-executionpolicy remotesigned
+
+Install-Module -Name PSReadLine -AllowPrerelease -Force
+Install-Module git-aliases -AllowClobber
+Install-Module posh-git
+// Install-Module oh-my-posh
+Install-Module DirColors
+
+code $PROFILE (notpad $PROFILE)
+
+Import-Module DirColors
+Import-Module posh-git
+Import-Module oh-my-posh
+Import-Module git-aliases -DisableNameChecking
+Set-PoshPrompt aliens
+
+#-------------------------------  Set Hot-keys BEGIN  -------------------------------
+# 设置 Tab 键补全
+# Set-PSReadlineKeyHandler -Key Tab -Function Complete
+
+# 设置 Tab 为菜单补全和 Intellisense
+Set-PSReadLineKeyHandler -Key "Tab" -Function MenuComplete
+
+# 设置 Ctrl+d 为退出 PowerShell
+Set-PSReadlineKeyHandler -Key "Ctrl+d" -Function ViExit
+
+# 设置 Ctrl+z 为撤销
+Set-PSReadLineKeyHandler -Key "Ctrl+z" -Function Undo
+
+# 设置向上键为后向搜索历史记录
+Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+
+# 设置向下键为前向搜索历史纪录
+Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+#-------------------------------  Set Hot-keys END    -------------------------------
